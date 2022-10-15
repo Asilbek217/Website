@@ -1,14 +1,17 @@
 * {
+  margin: 0;
   padding: 0;
   box-sizing: content-box;
 }
 
 body {
   display: flex;
-  height: 150vh;
+  height: 100vh;
+  background-repeat: no-repeat;
   background-image: url(./images/bg.png);
   justify-content: center;
-  margin-left: 500px;
+  background-size: 90%;
+  justify-content: flex-start;
 }
 
 .nav {
@@ -23,10 +26,9 @@ body {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+ display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .sign {
@@ -34,4 +36,8 @@ body {
   height: 40px;
   background-color: rgb(201, 152, 0);
   color: #ffff;
+}
+
+.text {
+  font-family: 'EB Garamond', serif;
 }
