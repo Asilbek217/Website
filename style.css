@@ -1,84 +1,112 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
-body {
- 
-}
-
-
-.hero {
-  
+.header {
   width: 100vw;
   height: 100vh;
- 
-  position: relative;
+  background-color: blue;
+  padding: 20px;
 }
 
-.background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-.main--nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
- gap: 700px;
-}
-
- .nav {
-
-padding: 20px;
-
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  
-}
-
-.nav a {
-  text-decoration: none;
-  color: rgb(26, 20, 20);
+.navbar {
+  background-color: aliceblue;
+  width: 2000px;
+  height: 100px;
 }
 
 .items {
- display: flex;
-flex-direction: column;
-}
-
-
-
-.rasm {
-  width: 100px;
-  height: 100px;
-}
-
-
-.sign {
-  padding: 10px;
-  background-color: rgb(201, 152, 0);
-  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .logo {
-  padding-left: 150px;
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
 }
 
-.text {
-  font-family: 'EB Garamond', serif;
+.list {
+  display: flex;
+  width: 800px;
+  height: 100px;
+  background-color: bisque;
+}
+
+.section {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(22, 17, 17);
+}
+
+.conteiner {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+.paragraf {
+  width: 800px;
+  height: 70px;
+  background-color: yellow;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
 }
 
 .player {
-  display: flex;
-  align-items: center;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(130, 118, 118);
 }
 
-.slides {
+.div {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.rasm {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.rasmlar {
+  width: 200px;
+  height: 200px;
+  background-color: springgreen;
+}
+
+.item {
   width: 100px;
-  height: 100px;
-} 
+  height: 30px;
+  background-color: bisque;
+}
+
+.title {
+  width: 100px;
+  height: 30px;
+  background-color: salmon;
+}
+
+.last {
+  display: flex;
+  align-items: flex-end;
+  gap: 800px;
+}
