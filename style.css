@@ -90,7 +90,6 @@
 .player {
   display: flex;
   align-items: center;
-  list-style:;
 }
 
 .div {
@@ -102,7 +101,7 @@
 .rasm {
   display: flex;
   align-items: flex-end;
-  padding-top: 100px;
+  padding-top: 85px;
   padding: -60px;
 }
 .last {
@@ -110,4 +109,45 @@
   align-items: center;
   gap: 300%;
   
+}
+
+
+
+.about {
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+}
+
+.two--sec {
+  width: 40%;
+  height: 200px;
+  background-color: black;
+}
+
+.type {
+  width: 100px;
+  height: 50px;
+  background-color: #c99800;
+}
+
+.text {
+  width: 600px;
+}
+
+.about--rasm {
+  display: flex;
+  justify-content: end ;
+}
+
+.palma {
+  width: 20%;
+  height: 400px;
+  background-color: blue;
+}
+
+.palma--two {
+  width: 20%;
+  height: 400px;
+  background-color: rgb(18, 18, 49);
 }
