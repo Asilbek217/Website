@@ -10,24 +10,34 @@
   margin-top: -20px;
 }
 
+
 .header {
   width: 100vw;
   height: 100vh;
-  background-color: aliceblue;
-  padding: 20px;
+  padding: 60px;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back{
+ width: 100vw;
+ height: 100vh;
+
 }
 
 .logo {
   margin-top: 25px;
+  padding-right: 55%;
 }
 
 .navbar {
-  background-color: rgb(91, 126, 156);
   width: 100%;
   height: 100px;
+  padding-right: 90px;
 }
 
-.items {
+.items { 
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,7 +46,6 @@
 .list {
   display: flex;
   gap: 50px;
-  background-color: bisque;
   list-style: none;
 }
 
@@ -45,8 +54,9 @@
 }
 
 .button {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #c99800;
   border: none;
 }
@@ -60,52 +70,44 @@
 .h1 {
   display: flex;
   align-items: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
   width: 30%;
   height: 50px;
 }
 
 .paragraf {
+  padding-top: 70px;
   width: 30%;
   height: 60px;
-  background-color: yellow;
 }
 
 .img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .player {
   display: flex;
   align-items: center;
+  list-style:;
 }
 
 .div {
   display: flex;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 .rasm {
   display: flex;
   align-items: flex-end;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding: -60px;
 }
-
-.item {
-  width: 100px;
-  height: 30px;
-  background-color: rgb(149, 34, 34);
-}
-
-.title {
-  width: 100px;
-  height: 30px;
-  background-color: salmon;
-}
-
 .last {
   display: flex;
   align-items: center;
-  gap: 800px;
+  gap: 300%;
+  
 }
