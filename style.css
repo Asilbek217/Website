@@ -133,125 +133,6 @@
   color: #fff;
 }
 
-/* .navbar {
-  width: 100%;
-  height: 100px;
-}
-
-.items {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.list {
-  display: flex;
-  gap: 50px;
-  list-style: none;
-}
-
-.itemm {
-  padding-top: 10px;
-}
-
-.button {
-  width: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #c99800;
-  border: none;
-}
-
-.conteiner {
-  display: flex;
-  padding-top: 50px;
-  flex-direction: column;
-}
-
-.h1 {
-  display: flex;
-  align-items: center;
-  font-family: 'EB Garamond', serif;
-  font-size: 50px;
-  width: 30%;
-  height: 50px;
-}
-
-.paragraf {
-  padding-top: 70px;
-  width: 30%;
-  height: 60px;
-}
-
-.img {
-  width: 150px;
-  height: 150px;
-}
-
-.player {
-  display: flex;
-  align-items: center;
-}
-
-.div {
-  display: flex;
-  align-items: center;
-  padding-top: 80px;
-}
-
-.rasm {
-  display: flex;
-  align-items: flex-end;
-  padding-top: 85px;
-  padding: -60px;
-}
-.last {
-  display: flex;
-  align-items: center;
-  gap: 300%;
-}
-
-.about {
-  background-color: aqua;
-  width: 100vw;
-  height: 100vh;
-}
-
-.two--sec {
-  width: 40%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-}
-
-.type {
-  width: 100px;
-  height: 50px;
-  background-color: #c99800;
-}
-
-.text {
-  width: 600px;
-}
-
-.about--rasm {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-.palma {
-  width: 20%;
-  height: 50px;
-  background-color: blue;
-}
-
-.palma--two {
-  width: 20%;
-  height: 50px;
-  background-color: rgb(18, 18, 49);
-} */
-
 /* media for 1440 */
 @media screen and (max-width: 1440px) {
   .header {
@@ -290,4 +171,52 @@
   .pagination {
     padding-bottom: 20px;
   }
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-title {
+  padding: 30px;
+  align-items: center;
+  width: 200px;
+  height: 110px;
+  font-size: 30px;
+}
+
+.text-description {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.part {
+  padding-top: 45px;
+}
+
+.knob {
+  width: 130px;
+  height: 50px;
+  background-color: #c99800;
+  border: none;
+}
+
+.photo {
+  display: flex;
+  justify-content: end;
+}
+
+.palma {
+  width: 20%;
+  height: 100px;
+  background-color: blue;
+}
+
+.palma--two {
+  height: 100px;
+  width: 20%;
+  background-color: rgb(18, 18, 49);
 }
