@@ -121,8 +121,9 @@
 
 .two--sec {
   width: 40%;
-  height: 200px;
-  background-color: black;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .type {
@@ -137,17 +138,18 @@
 
 .about--rasm {
   display: flex;
+  align-items: center;
   justify-content: end ;
 }
 
 .palma {
   width: 20%;
-  height: 400px;
+  height: 50px;
   background-color: blue;
 }
 
 .palma--two {
   width: 20%;
-  height: 400px;
+  height: 50px;
   background-color: rgb(18, 18, 49);
 }
