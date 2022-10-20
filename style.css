@@ -95,9 +95,7 @@
   gap: 12px;
 }
 
-.play__img {
-  /* width: 80px; */
-}
+
 
 .play__text {
   font-size: 22px;
@@ -176,6 +174,8 @@
 .about {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .text-title {
@@ -183,18 +183,14 @@
   align-items: center;
   width: 200px;
   height: 110px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .text-description {
-  width: 50%;
-  height: 100px;
+  width: 40%;
+  height: 250px;
   display: flex;
   align-items: center;
-}
-
-.part {
-  padding-top: 45px;
 }
 
 .knob {
@@ -203,20 +199,77 @@
   background-color: #c99800;
   border: none;
 }
-
 .photo {
-  display: flex;
-  justify-content: end;
+  position: relative;
 }
 
 .palma {
-  width: 20%;
-  height: 100px;
+  position: absolute;
+  width: 300px;
+  height: 600px;
   background-color: blue;
+  right: 50vh;
+  top: -350px;
 }
 
 .palma--two {
-  height: 100px;
-  width: 20%;
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  right: 80px;
+  top: -250px;
   background-color: rgb(18, 18, 49);
+}
+
+.Services {
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid black;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid black;
+  height: 90%;
+  width: 90%;
+}
+
+.ps--one {
+border: 2px solid black;
+width: 20%;
+height: 40%;
+}
+
+.ps--two {
+  height: 150px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.ps--three {
+  height: 150px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.ps--four {
+  height: 150px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ left: 50px;
+  border: 2px solid black;
+
+ 
 }
